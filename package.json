@@ -1,0 +1,16 @@
+{
+  "name": "dynamic-react-course",
+  "version": "1.0.0",
+  "description": "monorepo to handle the DRC ",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "course",
+    "repo"
+  ],
+  "author": "Daniel Mora",
+  "license": "ISC",
+  "workspaces": [
+    "projects/*"
+  ]
+}
