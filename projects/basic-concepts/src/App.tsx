@@ -10,8 +10,8 @@ function App() {
           <strong>React + Typescript + Tailwind + todo lo que quieran</strong>{' '}
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-4 w-1/2">
-          <Avatar name="Daniel el bello" github="danimc" />
-          <Avatar name="El Bollito Dev" github="bollitoDev" />
+          <Avatar name="Daniel el bello" github="danimc" lemma="Aprender para vivir" />
+          <Avatar name="BollitoDev" github="bollitoDev" />
           <Avatar name="Abraham El poderoso" github="alegorreta-mex" />
           <Avatar name="Santi el Zen" github="prsantiago" />
         </div>
