@@ -26,7 +26,7 @@ export default function MainPage(){
         <div className="flex flex-wrap justify-center gap-4 w-full text-center">
           <div className="columns-1 space-y-2">
             {namesArray.map((name, index)=>(
-              <CardName name={name} isSelected={index==selectedName}/>
+              <CardName name={name} isSelected={index==selectedName} highlightStyle='bg-yellow-400 text-black'/>
             ))}
             <button onClick={updateRandomState} className='bg-green-700 text-white rounded-lg p-6 hover:bg-green-600'>
               Generate Random Number: {randomState}
